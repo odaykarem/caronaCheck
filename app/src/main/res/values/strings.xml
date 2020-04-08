@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Project1</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+</resources>
