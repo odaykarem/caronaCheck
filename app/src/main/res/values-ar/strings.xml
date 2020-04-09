@@ -5,4 +5,16 @@
     <string name="no">لا</string>
     <string name="next">التالي</string>
     <string name="back">خروج</string>
+    <string name="test">ابدأ الاختبار</string>
+    <string name="error_message">فشل الحصول على نتائج، الرجاء المحاولة مرة أخرى</string>
+    <string name="refresh">تحديث المعلومات</string>
+    <string name="total_cases">عدد الحالات الكلية في العالم</string>
+    <string name="total_recovered">عدد الحالات التي تم شفاؤها</string>
+    <string name="total_unresolved">عدد الحالات التي لم يتم شفاؤها بعد</string>
+    <string name="total_deaths">حصيلة الموتى الكلية</string>
+    <string name="total_new_cases_today">عدد الحالات الجديدة التي أصيبت اليوم</string>
+    <string name="total_new_deaths_today">حصيلة الموتى اليوم</string>
+    <string name="total_active_cases">عدد الحالات النشطة الكلية</string>
+    <string name="total_serious_cases">العدد الكلي للحالات الخطيرة</string>
+    <string name="total_affected_countries">العدد الكلي للبلدان التي انتشر فيها الفيروس</string>
 </resources>

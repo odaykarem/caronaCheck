@@ -49,7 +49,7 @@ public class Questions extends AppCompatActivity {
                     i++;
 //
                     if (i == 1) {
-                        tv.setText(" هل لديك حرارة");
+                        tv.setText(" هل تعاني  من ارتفاع درجة  حرارة");
                     }
                     else if (i == 2) {
                         tv.setText(" هل لديك عطس");

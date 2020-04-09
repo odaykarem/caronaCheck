@@ -4,4 +4,17 @@
     <string name="no">No</string>
     <string name="next">Next</string>
     <string name="back">Back</string>
+    <string name="test">Test</string>
+    <string name="error_message">Failed to get results, please try again</string>
+    <string name="refresh">Refresh</string>
+    <string name="total_cases">Total Cases</string>
+    <string name="total_recovered">Total Recovered</string>
+    <string name="total_unresolved">Total UnResolved</string>
+    <string name="total_deaths">Total Deaths</string>
+    <string name="total_new_cases_today">Total New Cases Today</string>
+    <string name="total_new_deaths_today">Total New Deaths Today</string>
+    <string name="total_active_cases">Total Active Cases</string>
+    <string name="total_serious_cases">Total Serious Cases</string>
+    <string name="total_affected_countries">Total Affected Countries</string>
+    <string name="source" translatable="false">https://thevirustracker.com</string>
 </resources>

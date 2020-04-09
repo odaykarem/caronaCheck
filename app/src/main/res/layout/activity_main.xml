@@ -5,16 +5,46 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-     <LinearLayout
-         android:layout_width="match_parent"
-         android:layout_height="match_parent"
-         android:orientation="vertical">
-         <ListView
-             android:id="@+id/list_items"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
+            <ListView
+                android:id="@+id/list_items"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-         </ListView>
-     </LinearLayout>
+            </ListView>
+        <TextView
+            android:id="@+id/tv_error_message_display"
+            android:textSize="22sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/error_message"
+            android:visibility="invisible" />
+        <ProgressBar
+            android:id="@+id/pb_loading_indicator"
+            android:layout_gravity="center"
+            android:visibility="invisible"
+            android:layout_width="42dp"
+            android:layout_height="42dp"/>
+
+    </FrameLayout>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
+<!--
+
+     <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+            <TextView
+                android:id="@+id/tv_results"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:textColor="#F30909"/>
+        </ScrollView>
+      -->
